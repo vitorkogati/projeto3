@@ -1,0 +1,75 @@
+body{
+    font-family:'roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #038C7F;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #038C7F;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.section-tittle,
+.navbar-brand{
+    font-family: 'bebas neue',sans-serif;
+}
+
+.navbar-toggler{
+    background-color: #F2E7DC;
+}
+
+#produtos,
+#sobre-nos{
+    background-color: #F2E7DC
+}
+
+.text-colored{
+    color: #038C7F;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #038C7F;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #038C7F;
+}
+
+.container-conteudo{
+    background-color: antiquewhite;
+    border-radius: 24px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    width: 100%;
+}
+
+#fale-conosco  #message{
+    resize: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
